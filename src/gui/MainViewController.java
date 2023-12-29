@@ -7,35 +7,34 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.MenuItem;
 
-public class MainViewController implements Initializable {
-	
+public class MainViewController implements Initializable{
 	@FXML
 	private MenuItem menuItemSeller;
 	
 	@FXML
-	private MenuItem menuItemDepartments;
+	private MenuItem menuItemDepartment;
 	
 	@FXML
 	private MenuItem menuItemAbout;
 	
 	@FXML
-	public void onmenuItemSellerAction() {
+	public void onMenuItemSellerAction() {
 		System.out.println("menuItemSeller");
-	}
-
-	@FXML
-	public void onmenuItemDepartmentsAction() {
-		System.out.println("menuItemDepartments");
 	}
 	
 	@FXML
-	public void onmenuItemAboutAction() {
+	public void onMenuItemDepartmentAction() {
+		System.out.println("menuItemDepartments");
+	}
+
+	@FXML
+	public void onMenuItemAboutAction() {
 		System.out.println("menuItemAbout");
 	}
+
 	@Override
 	public void initialize(URL uri, ResourceBundle rb) {
 		// TODO Auto-generated method stub
 		
 	}
-
 }
