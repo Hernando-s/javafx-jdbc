@@ -71,5 +71,4 @@ public class MainViewController implements Initializable {
 		}
 	}
 
-	
 }
