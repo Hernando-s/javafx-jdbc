@@ -1,4 +1,4 @@
-package modelo.dao;
+package model.dao;
 
 import db.DB;
 import model.dao.impl.DepartmentDaoJDBC;
