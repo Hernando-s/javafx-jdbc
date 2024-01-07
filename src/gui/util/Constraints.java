@@ -25,6 +25,6 @@ public class Constraints {
 		    	if (newValue != null && !newValue.matches("\\d*([\\.]\\d*)?")) {
                     txt.setText(oldValue);
                 }
-		    });
+		    }); 
 	}
 }
