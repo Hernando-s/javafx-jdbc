@@ -18,7 +18,7 @@ public class DepartmentDaoJDBC implements DepartmentDao {
 
 	private Connection conn;
 	
-	public DepartmentDaoJDBC(Connection conn) {
+	public DepartmentDaoJDBC(Connection conn) { 
 		this.conn = conn;
 	}
 	

@@ -11,7 +11,7 @@ public class Seller implements Serializable {
 	private String name;
 	private String email;
 	private Date birthDate;
-	private Double baseSalary;
+	private Double baseSalary; 
 	
 	private Department department;
 	
