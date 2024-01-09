@@ -17,7 +17,7 @@ public class DB {
 		if (conn == null) {
 			try {
 				Properties props = loadProperties(); 
-				String url = props.getProperty("jdbc:mysql://localhost:3306/coursejdbc");
+				String url = props.getProperty("dburl");
 				conn = DriverManager.getConnection(url, props);
 			} catch (SQLException e) {
 				throw new DbException(e.getMessage());
