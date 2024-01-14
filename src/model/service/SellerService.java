@@ -7,12 +7,17 @@ import model.dao.SellerDao;
 import model.entities.Seller;
 
 public class SellerService {
+//
+//	public List<Seller> findAll() {
+//		List<Seller> list = new ArrayList<>();
+//		list.add(new Seller(1, "Hernando", "hernando2gmail.com",null, 3000.00,null));
+//		list.add(new Seller(2, "Hernando", "hernando2gmail.com",null, 3000.00,null));
+//		list.add(new Seller(3, "Hernando", "hernando2gmail.com",null, 3000.00,null));
+//		list.add(new Seller(4, "Hernando", "hernando2gmail.com",null, 3000.00,null));
+//		
+//		return list;
+//	}
 
-	/*
-	 * public List<Seller> findAll(){ List<Seller> list = new ArrayList<>();
-	 * list.add(new Seller(1,"Books")); list.add(new Seller(2,"Computers"));
-	 * list.add(new Seller(3,"Electronics")); return list; }
-	 */
 	private SellerDao dao = DaoFactory.createSellerDao();
 
 	public List<Seller> findAll() {
